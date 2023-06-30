@@ -1,0 +1,9 @@
+{
+  "name": "rodeo-clown",
+  "version": "0.1.0",
+  "description": "Owlbear Rodeo & Chrome extension suite for Dnd Beyond",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "AGPL-3.0 license"
+}
