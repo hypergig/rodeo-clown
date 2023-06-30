@@ -1,2 +1,2 @@
 # rodeo-clown
-Owlbear &amp; Chrome extension suite for Dnd Beyond
+Owlbear Rodeo &amp; Chrome extension suite for Dnd Beyond
