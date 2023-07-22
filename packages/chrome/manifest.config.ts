@@ -6,6 +6,14 @@ export default defineManifest(async (env) => (
     name: "Rodeo Clown",
     version: "0.1.0",
     action: {default_popup: "index.html"},
+    content_scripts: [
+      {
+        js: ["src/dndb-content.tsx"],
+        matches: [
+          "https://*.dndbeyond.com/monsters*"
+        ]
+      },
+    ],
     declarative_net_request: {
       rule_resources: [
         {
