@@ -1,0 +1,18 @@
+[
+  {
+    "id" : 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        { "header": "X-Rodeo-Clown-Enabled", "operation": "set", "value": "true" },
+        { "header": "Access-Control-Allow-Origin", "operation": "set", "value": "*" }
+      ]
+    },
+    "condition" : {
+      "urlFilter" : "https://*.dndbeyond.com/*",
+      "resourceTypes" : ["xmlhttprequest"],
+      "initiatorDomains": ["owlbear.rodeo"]
+    }
+  }
+]
