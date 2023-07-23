@@ -15,7 +15,8 @@
     "@mui/material": "^5.14.1",
     "@types/chrome": "^0.0.239",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "shared": "workspace:^"
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "2.0.0-beta.18",
