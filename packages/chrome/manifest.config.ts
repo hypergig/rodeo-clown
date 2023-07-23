@@ -24,6 +24,11 @@ export default defineManifest(async (env) => (
         }
       ]
     },
+    externally_connectable: {
+      matches: [
+        "http://localhost:5175/*"
+      ]
+    },
     permissions: [
       "declarativeNetRequest",
       "declarativeNetRequestWithHostAccess"
