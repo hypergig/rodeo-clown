@@ -2,11 +2,5 @@
   "name": "Rodeo Clown",
   "version": "0.1.0",
   "manifest_version": 1,
-  "action": {
-    "title": "Rodeo Clown",
-    "icon": "/vite.svg",
-    "popover": "/",
-    "height": 600,
-    "width": 400
-  }
+  "background_url": "/index.html"
 }

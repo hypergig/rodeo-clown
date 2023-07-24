@@ -1,7 +1,3 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
 import OBR, {buildImage} from "@owlbear-rodeo/sdk";
 import {PortNames} from "lib/src/constants.ts";
 import {Token} from "lib/src/messages.ts";
@@ -33,10 +29,3 @@ OBR.onReady(async () => {
     OBR.scene.items.addItems([item])
   })
 })
-
-
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>,
-)
