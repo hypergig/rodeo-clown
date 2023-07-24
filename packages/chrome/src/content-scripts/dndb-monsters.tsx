@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import {Token} from "lib/src/messages.ts";
 import {PortNames} from "lib/src/constants.ts";
-import ObrButton from "../components/ObrButton.tsx";
+import ObrButton from "./ObrButton.tsx";
 
 console.log("rodeo clown injected");
 
