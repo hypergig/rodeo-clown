@@ -29,6 +29,9 @@ export default defineManifest(async (env) => (
         "http://localhost:5175/*"
       ]
     },
+    icons: {
+      128: "128-rodeo-clown.png"
+    },
     permissions: [
       "declarativeNetRequest",
       "declarativeNetRequestWithHostAccess"

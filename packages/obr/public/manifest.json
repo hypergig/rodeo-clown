@@ -2,5 +2,6 @@
   "name": "Rodeo Clown",
   "version": "0.1.0",
   "manifest_version": 1,
+  "icon": "/rodeo-clown.png",
   "background_url": "/index.html"
 }
